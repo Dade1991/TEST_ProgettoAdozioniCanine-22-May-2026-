@@ -1,0 +1,99 @@
+main {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#intro {
+  font-family: "Yesteryear", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: xx-large !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin: 20px auto;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
+}
+
+section > h1 > span {
+  text-shadow: 2px 2px 5px #f21b42;
+}
+
+#intro > p {
+  color: #0d0d0d;
+  font-size: 1.7rem;
+}
+
+.homepageGrid {
+  display: flex;
+  flex-grow: 1;
+}
+
+#homapageSecSX {
+  min-width: none;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 50%;
+}
+
+.homapageSecSXWrapper {
+  padding: 25px;
+}
+
+.homapageSecSXWrapper ul {
+  text-align: start;
+}
+
+#homapageSecSX div h2 {
+  color: #f21b42;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
+}
+
+#homapageSecSX div h4 {
+  color: #f21b42;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
+  margin-top: 0px;
+}
+
+#homapageSecSX div p {
+  margin: 0px;
+  width: 100%;
+  text-align: justify;
+}
+
+hr {
+  margin: 20px 0px;
+  border: solid #0cf2b1 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
+}
+
+#homapageSecDX {
+  min-width: none;
+  margin: 20px auto;
+  overflow: hidden;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 0 0 50%;
+}
+
+.homapageSecDXWrapper {
+  padding: 25px;
+}
+
+.imgItself {
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-fit: contain;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
+}
