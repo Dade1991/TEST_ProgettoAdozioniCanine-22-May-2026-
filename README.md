@@ -49,3 +49,23 @@ Nota sul contesto
 Per questo motivo il lavoro è da considerarsi come un prototipo frontend iniziale, focalizzato soprattutto sulla resa visiva, sulla chiarezza della struttura e sull’impostazione delle funzionalità principali, più che su una completa implementazione dinamica.
 Inoltre, per mancanza di tempo, è stato riciclato un template precedentemente utilizzato in gruppo con altre persone e perciò manca di cooerenza a volte.
 Purtroppo non ho avuto tempo per inserire commenti.
+
+---
+
+TEST_ProgettoAdozioniCanine (22 May 2026)
+├── assets
+│ ├── icons
+│ └── images
+├── css
+│ ├── styles_homepage.css
+│ ├── styles_info.css
+│ ├── styles_product.css
+│ └── styles.css
+├── html
+│ ├── Homepage.html
+│ ├── Info.html
+│ └── OurDogs.html
+├── js
+│ └── main.js
+├── .gitattributes
+└── README.md
